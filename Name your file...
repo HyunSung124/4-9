@@ -1,0 +1,48 @@
+# Myfile = open('er','r')
+# print(Myfile.read().count("\n")+1)
+# Myfile.close()
+
+# Myfile = open('er','r')
+# cnt = 0
+# while True:
+#     if Myfile.readline() == '':
+#         break
+#     cnt += 1
+# print(cnt)
+# Myfile.close()
+
+# a = int(input())
+# b = int(input())
+# c = b
+# if a > b:
+#     b = a
+#     a = c
+# print(a,b)
+
+# def googoodan(n):
+#     print("==%ddan=="%n)
+#     for i in range(1,11):
+#         print("%d * %d = %d"%(n, i, n*i))
+#     print()
+#
+# a, b = map(int, input().split())
+#
+# for n in range(min(a,b), max(a,b)+1):
+#     googoodan(n)
+
+# def print_10():
+#     print("@"*10)
+#
+# text = ['first', 'second', 'third']
+# for i in range(3):
+#     print(text[i])
+#     print_10()
+
+# def square(n):
+#     for i in range(1, n+1):
+#         for j in range(1, n+1):
+#             print(i*j, end='  ')
+#         print()
+# 
+# n = int(input())
+# square(n)
